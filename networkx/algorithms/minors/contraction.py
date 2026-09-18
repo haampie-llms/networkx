@@ -3,7 +3,7 @@
 from itertools import chain, combinations, permutations, product
 
 import networkx as nx
-from networkx import density
+from networkx.classes.function import density
 from networkx.utils import arbitrary_element
 
 __all__ = [

@@ -3,7 +3,8 @@ r"""Function for computing a junction tree of a graph."""
 from itertools import combinations
 
 import networkx as nx
-from networkx.algorithms import chordal_graph_cliques, complete_to_chordal_graph, moral
+from networkx.algorithms import moral
+from networkx.algorithms.chordal import chordal_graph_cliques, complete_to_chordal_graph
 from networkx.utils import not_implemented_for
 
 __all__ = ["junction_tree"]

@@ -4,7 +4,7 @@ import itertools
 from collections import defaultdict, deque
 
 import networkx as nx
-from networkx.algorithms.community import modularity
+from networkx.algorithms.community.quality import modularity
 from networkx.utils import py_random_state
 
 __all__ = ["louvain_communities", "louvain_partitions"]

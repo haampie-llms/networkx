@@ -9,7 +9,7 @@ from os.path import splitext
 from pathlib import Path
 
 import networkx as nx
-from networkx.utils import create_py_random_state, create_random_state
+from networkx.utils.misc import create_py_random_state, create_random_state
 
 __all__ = [
     "not_implemented_for",

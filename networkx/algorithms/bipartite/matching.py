@@ -41,7 +41,7 @@ import collections
 import itertools
 
 import networkx as nx
-from networkx.algorithms.bipartite import sets as bipartite_sets
+from networkx.algorithms.bipartite.basic import sets as bipartite_sets
 from networkx.algorithms.bipartite.matrix import biadjacency_matrix
 
 __all__ = [
